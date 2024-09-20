@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Challenge_AltegoEncore"
+}
+
+game:GetService("ReplicatedStorage").Challenges.Remotes.ToServer.ProcessUGCRequest:InvokeServer(unpack(args))
